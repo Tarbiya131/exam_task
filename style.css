@@ -1,0 +1,498 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    line-height: normal;
+    margin: 0 20px;
+}
+.nav{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    line-height: normal;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.left_side_ic{
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.bc_ic{
+    background-color: rgba(116, 142, 156, 1)
+}
+#bl_p{
+    font-size: 17px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gr_p{font-size: 17px;
+    color:rgba(151, 147, 145, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gr_p1{font-size: 17px;
+    color:rgba(217, 217, 217, 1);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.gr_row{
+    background-color: rgba(230, 230, 230, 1);
+    height: 1px;
+    width: 100%;
+}
+#fn_s120{font-size: 80px;
+    width: 600px;
+    color: rgba(28, 37, 41, 1);
+    font-family:<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Source+Sans+Pro:wght@200&family=Tiro+Devanagari+Hindi&family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+
+}
+.right_side{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 700px;
+    height: 60px;
+}
+#fn_s20s{font-size: 20px;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(170, 170, 170, 1);
+    margin-top: 20px;
+}
+#gr_but{
+    background-color:#748E9C ;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+    height: 40px;
+    border: 0;
+  
+}
+#wt_but{ background-color:white ;
+    color: black;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+    height: 40px;
+    border: 1px solid #DEDEDE;
+
+    
+}
+.button_row{
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cental_info{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 100%;
+     height: 100vh;
+}
+
+
+#fn_s17{margin: 0;
+    font-size: 17px;
+    color: #1C2529
+    font-family:<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Source+Sans+Pro:wght@200&family=Tiro+Devanagari+Hindi&family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+    
+}
+
+.left_side{width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.left_side_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 20px;
+
+}
+.FT_r{
+
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.FT_R{margin-left: 40px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.fr_r1{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#fn_s30{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+ }
+ #fn_s22{
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+ }
+ #gray{font-family: Arial, Helvetica, sans-serif;
+     color: gray;
+     margin-top: 30px;
+ }
+ #black{color: black;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .gr_bl{
+     width: 150px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-bottom: 30px;
+     margin-left: 30px;
+ }
+ .pr_time{width: 60%;
+     margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "p p a"
+}
+.p78{
+    grid-area: p;
+   background: linear-gradient(90deg, #6C8693 -15.57%, #A7C2D3 117.18%);
+    height: 40px;
+    align-items: center;
+    line-height: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 400px;
+
+}
+.another{
+    grid-area: a;
+    height: 38px;
+    background-color: white;
+    border: 1px solid rgb(229, 227, 227);
+}
+.processing{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+    line-height: 0%;
+    
+}
+.page_box{
+    background-image: url(./Rectangle\ 249.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 900px;
+   margin-top: 50px;
+}
+#wfn_40{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+
+}
+#wfn_30{font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    margin-left: 80px;
+    height: 100px;
+    justify-content: space-between;
+}
+.text_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.f_row{
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+#fn_s20{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+}
+#fn_s23{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.s_row{width: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+   
+}
+#fn_s15{font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+    width: 170px;
+
+}
+#fn_s17{font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: black;
+}
+#card_b{
+    height: 400px;
+    width: 400px;
+}
+.card{
+    width: 400px;
+    height: 540px;
+    background-color: aliceblue;
+    margin-top: 40px;
+
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#trans_par{
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.footer{
+    margin-top: 50px;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+}
+.body_foto{margin-left:50px ;
+    
+}
+#fns20{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.des_icon1{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#fns20g{ font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(99, 120, 131, 1);
+
+}
+.body_foto{width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.rowicons{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+#pic1{
+    width: 500px;
+    height: 500px;
+    
+}
+.many_icons{
+    width: 100%;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#fn_s20x{    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+   
+}
+
+
+#fn_s40x{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: black;
+    font-weight: 700;
+}
+#trans_par2{
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: black;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: -600px;
+}
+.middle_row{
+     height: 100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    margin-bottom: 200px;
+    
+     
+}
+.grey_box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid#c6c5c5;
+    padding-right: 80px;
+
+}
+
+
+
+li::before {content:url(./bg_ic.png)
+}
+li{width: 1200px;
+padding-left: 50px;
+
+
+
+}
+#gr_icon1{background-color:rgba(185, 214, 232, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C2529;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    padding-right: 40px;
+    align-items: center;
+
+    
+
+}
+#gr_icon2{background-color:rgba(206, 230, 244, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C2529;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    padding-right: 40px;
+    align-items: center;
+ 
+}
+#gr_icon3{
+    background-color: rgba(180, 214, 234,1);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C2529;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    padding-right: 40px;
+    align-items: center;
+}
+.icon{display: flex;
+    flex-direction: column;
+width: 100%;
+margin: 0;
+
+
+   }
+   #t_ic{
+       
+       display: flex;
+       flex-direction: row;
+       margin-left: 950px;
+   }
+   #fns_30bg{
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 60px;
+       margin-top: 180px;
+       color: 
+       rgba(71, 102, 118, 1);
+       margin-left: 40px;
+       vertical-align: middle;
+   }
+   .li_grey{
+       width: 100%;
+    
+   }
+.scroll_roll{
+    min-width:100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    ma
+
+   }
+   .box_roll{
+    min-width: 400px;
+    height: 180px;
+    background-color: rgba(116, 142, 156, 1);
+    margin: 20px;
+    
+   }
+   
